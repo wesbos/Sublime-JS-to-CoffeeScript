@@ -1,0 +1,3 @@
+[
+  { "keys": ["shift+alt+s"], "command": "html_to_jade_from_selection"}
+]
