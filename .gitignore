@@ -18,6 +18,7 @@ develop-eggs
 lib
 lib64
 
+
 # Installer logs
 pip-log.txt
 
@@ -33,3 +34,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+
+.DS_Store
+*.pyc
