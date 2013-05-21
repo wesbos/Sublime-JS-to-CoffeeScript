@@ -2,9 +2,11 @@
 
 Converts selection(s) of JavaScript to Coffeescript!
 
-Depends on your system having js2coffee. To install:
+Depends on your system having node and the `js2coffee` module. To install:
 
 `npm install js2coffee -g`
+
+Package not available on package control yet. Put this in your Sublime Text package directory.
 
 Then simply go ahead and select some JavaScript:
 
