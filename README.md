@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Convert JS selection to CoffeeScrip
 
 Converts selection(s) of JavaScript to Coffeescript!
