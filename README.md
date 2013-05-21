@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Convert JS selection to CoffeeScrip
 
 Converts selection(s) of JavaScript to Coffeescript!
@@ -21,4 +22,3 @@ Then open up your command pallet and use the following command:
 and end up with fresh-roasted coffeescript!
 
 ![](http://wes.io/P7QX/content)
-
