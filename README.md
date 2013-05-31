@@ -1,4 +1,4 @@
-#Convert JS selection to CoffeeScrip
+#Convert JS selection to CoffeeScript
 
 Converts selection(s) of JavaScript to Coffeescript!
 
