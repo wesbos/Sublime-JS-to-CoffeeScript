@@ -1,4 +1,4 @@
-import urllib2
+import urllib
 import json
 import sublime
 import sublime_plugin
@@ -10,11 +10,11 @@ class JsToCsFromSelectionCommand(sublime_plugin.TextCommand):
             if not region.empty():
                 # Grab the JS
                 js = self.view.substr(region)
-                print js
-                cmd = "echo '{0}' | js2coffee".format(js)
+                print(js)
+                cmd = 'echo "{0}" | js2coffee'.format(js)
                 p = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                returned_cs = p.stdout.read()
-                print returned_cs
+                returned_cs = p.stdout.read().decode("utf-8")
+                print(returned_cs)
                 if "SyntaxError" in returned_cs:
                   err = returned_cs.split('\n')
                   sublime.error_message(err[0])
